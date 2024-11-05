@@ -1,0 +1,16 @@
+2024-11-04 16:44:27,863 - INFO - Found 4 SQL files to execute
+2024-11-04 16:44:27,984 - INFO - Executing query from 01_create_tables.sql
+2024-11-04 16:44:28,041 - INFO - Successfully executed query from 01_create_tables.sql
+2024-11-04 16:44:28,058 - INFO - Executing query from 02_insert_data.sql
+2024-11-04 16:44:28,079 - INFO - Successfully executed query from 02_insert_data.sql
+2024-11-04 16:44:28,091 - INFO - Executing query from 03_update_data.sql
+2024-11-04 16:44:28,093 - INFO - Result: ('John', 'Doe', 'john.doe@example.com', datetime.date(2024, 1, 15))
+2024-11-04 16:44:28,094 - INFO - Result: ('Jane', 'Smith', 'jane.smith@example.com', datetime.date(2024, 2, 1))
+2024-11-04 16:44:28,094 - INFO - Result: ('Bob', 'Johnson', 'bob.johnson@example.com', datetime.date(2024, 3, 1))
+2024-11-04 16:44:28,095 - INFO - Successfully executed query from 03_update_data.sql
+2024-11-04 16:44:28,108 - INFO - Executing query from 04_select_data.sql
+2024-11-04 16:44:28,114 - INFO - Successfully executed query from 04_select_data.sql
+2024-11-04 16:44:48,506 - INFO - Found 4 SQL files to execute
+2024-11-04 16:44:48,570 - INFO - Executing query from 01_create_tables.sql
+2024-11-04 16:44:48,582 - ERROR - Error executing query from 01_create_tables.sql: 1050: Table 'employees' already exists
+2024-11-04 16:44:48,582 - ERROR - Stopping execution due to failure in D:\OneDrive - TRUPartner Services Pvt Ltd\Desktop\Python\SQL automation\sql_files\01_create_tables.sql
